@@ -186,8 +186,8 @@
       <Optimization>Disabled</Optimization>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <ProgramDataBaseFileName>$(OutDir)..\..\lib\$(PlatformTarget)\$(TargetName).pdb</ProgramDataBaseFileName>
-      <PreprocessorDefinitions>_TIMESPEC_DEFINED;VERSION="2.0.0";LIBSHOUT_MAJOR=2;LIBSHOUT_MINOR=0;LIBSHOUT_MICRO=0;HAVE_WINSOCK2_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\include;$(ProjectDir)..\..\include;$(OutDir)..\..\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_WINSOCK_DEPRECATED_NO_WARNINGS;HAVE_SYS_TIMEB_H;HAVE_FTIME;_TIMESPEC_DEFINED;VERSION="2.3.1";LIBSHOUT_MAJOR=2;LIBSHOUT_MINOR=3;LIBSHOUT_MICRO=1;HAVE_WINSOCK2_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)..\..\src;$(OutDir)..\..\include\pthreads;$(ProjectDir)..\include;$(ProjectDir)..\..\include;$(OutDir)..\..\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <BrowseInformation>true</BrowseInformation>
       <BrowseInformationFile>$(IntDir)bsc\</BrowseInformationFile>
     </ClCompile>
@@ -238,8 +238,8 @@ ENDLOCAL
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
-      <PreprocessorDefinitions>_TIMESPEC_DEFINED;VERSION="2.0.0";LIBSHOUT_MAJOR=2;LIBSHOUT_MINOR=0;LIBSHOUT_MICRO=0;HAVE_WINSOCK2_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\include;$(ProjectDir)..\..\include;$(OutDir)..\..\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>_WINSOCK_DEPRECATED_NO_WARNINGS;HAVE_SYS_TIMEB_H;HAVE_FTIME;_TIMESPEC_DEFINED;VERSION="2.3.1";LIBSHOUT_MAJOR=2;LIBSHOUT_MINOR=3;LIBSHOUT_MICRO=1;HAVE_WINSOCK2_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)..\..\src;$(OutDir)..\..\include\pthreads;$(ProjectDir)..\include;$(ProjectDir)..\..\include;$(OutDir)..\..\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ProgramDataBaseFileName>$(OutDir)..\..\lib\$(PlatformTarget)\$(TargetName).pdb</ProgramDataBaseFileName>
       <BrowseInformation>true</BrowseInformation>
       <BrowseInformationFile>$(IntDir)bsc\</BrowseInformationFile>
@@ -292,9 +292,9 @@ ENDLOCAL
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\include;$(ProjectDir)..\..\include;$(OutDir)..\..\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)..\..\src;$(OutDir)..\..\include\pthreads;$(ProjectDir)..\include;$(ProjectDir)..\..\include;$(OutDir)..\..\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ProgramDataBaseFileName>$(OutDir)..\..\lib\$(PlatformTarget)\$(TargetName).pdb</ProgramDataBaseFileName>
-      <PreprocessorDefinitions>_TIMESPEC_DEFINED;VERSION="2.0.0";LIBSHOUT_MAJOR=2;LIBSHOUT_MINOR=0;LIBSHOUT_MICRO=0;HAVE_WINSOCK2_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_WINSOCK_DEPRECATED_NO_WARNINGS;HAVE_SYS_TIMEB_H;HAVE_FTIME;_TIMESPEC_DEFINED;_TIMESPEC_DEFINED;VERSION="2.3.1";LIBSHOUT_MAJOR=2;LIBSHOUT_MINOR=3;LIBSHOUT_MICRO=1;HAVE_WINSOCK2_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <BrowseInformation>true</BrowseInformation>
       <BrowseInformationFile>$(IntDir)bsc\</BrowseInformationFile>
     </ClCompile>
@@ -347,9 +347,9 @@ ENDLOCAL
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\include;$(ProjectDir)..\..\include;$(OutDir)..\..\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)..\..\src;$(OutDir)..\..\include\pthreads;$(ProjectDir)..\include;$(ProjectDir)..\..\include;$(OutDir)..\..\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ProgramDataBaseFileName>$(OutDir)..\..\lib\$(PlatformTarget)\$(TargetName).pdb</ProgramDataBaseFileName>
-      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_WINSOCK_DEPRECATED_NO_WARNINGS;HAVE_SYS_TIMEB_H;HAVE_FTIME;_TIMESPEC_DEFINED;_TIMESPEC_DEFINED;VERSION="2.3.1";LIBSHOUT_MAJOR=2;LIBSHOUT_MINOR=3;LIBSHOUT_MICRO=1;HAVE_WINSOCK2_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <BrowseInformation>true</BrowseInformation>
       <BrowseInformationFile>$(IntDir)bsc\</BrowseInformationFile>
     </ClCompile>
@@ -399,9 +399,9 @@ ENDLOCAL
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\include;$(ProjectDir)..\..\include;$(OutDir)..\..\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)..\..\src;$(OutDir)..\..\include\pthreads;$(ProjectDir)..\include;$(ProjectDir)..\..\include;$(OutDir)..\..\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ProgramDataBaseFileName>$(IntDir)$(TargetName).pdb</ProgramDataBaseFileName>
-      <PreprocessorDefinitions>_DEBUG;_WINDOWS;_USRDLL;WIN32;DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>SHOUT_DLL_BUILD;_WINSOCK_DEPRECATED_NO_WARNINGS;HAVE_SYS_TIMEB_H;HAVE_FTIME;_TIMESPEC_DEFINED;VERSION="2.3.1";LIBSHOUT_MAJOR=2;LIBSHOUT_MINOR=3;LIBSHOUT_MICRO=1;HAVE_WINSOCK2_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_DEBUG;_WINDOWS;_USRDLL;WIN32;DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <BrowseInformation>true</BrowseInformation>
       <BrowseInformationFile>$(IntDir)bsc\</BrowseInformationFile>
     </ClCompile>
@@ -413,7 +413,7 @@ ENDLOCAL
       <ProfileGuidedDatabase>$(IntDir)$(TargetName).pgd</ProfileGuidedDatabase>
       <ProgramDatabaseFile>$(OutDir)..\..\lib\$(PlatformTarget)\$(TargetName).pdb</ProgramDatabaseFile>
       <AdditionalLibraryDirectories>$(OutDir)..\..\lib\$(PlatformTarget)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>oggd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>oggd.lib;vorbisd.lib;pthreadsVC2d.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <LargeAddressAware>true</LargeAddressAware>
     </Link>
     <PreBuildEvent>
@@ -456,9 +456,9 @@ ENDLOCAL
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\include;$(ProjectDir)..\..\include;$(OutDir)..\..\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)..\..\src;$(OutDir)..\..\include\pthreads;$(ProjectDir)..\include;$(ProjectDir)..\..\include;$(OutDir)..\..\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ProgramDataBaseFileName>$(IntDir)$(TargetName).pdb</ProgramDataBaseFileName>
-      <PreprocessorDefinitions>_DEBUG;_WINDOWS;_USRDLL;WIN32;DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>SHOUT_DLL_BUILD;_WINSOCK_DEPRECATED_NO_WARNINGS;HAVE_SYS_TIMEB_H;HAVE_FTIME;_TIMESPEC_DEFINED;VERSION="2.3.1";LIBSHOUT_MAJOR=2;LIBSHOUT_MINOR=3;LIBSHOUT_MICRO=1;HAVE_WINSOCK2_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_DEBUG;_WINDOWS;_USRDLL;WIN32;DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <BrowseInformation>true</BrowseInformation>
       <BrowseInformationFile>$(IntDir)bsc\</BrowseInformationFile>
     </ClCompile>
@@ -470,7 +470,7 @@ ENDLOCAL
       <ProfileGuidedDatabase>$(IntDir)$(TargetName).pgd</ProfileGuidedDatabase>
       <ProgramDatabaseFile>$(OutDir)..\..\lib\$(PlatformTarget)\$(TargetName).pdb</ProgramDatabaseFile>
       <AdditionalLibraryDirectories>$(OutDir)..\..\lib\$(PlatformTarget)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>oggd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>oggd.lib;vorbisd.lib;pthreadsVC2d.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PreBuildEvent>
       <Command>
@@ -514,9 +514,9 @@ ENDLOCAL
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\include;$(ProjectDir)..\..\include;$(OutDir)..\..\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)..\..\src;$(OutDir)..\..\include\pthreads;$(ProjectDir)..\include;$(ProjectDir)..\..\include;$(OutDir)..\..\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ProgramDataBaseFileName>$(IntDir)$(TargetName).pdb</ProgramDataBaseFileName>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>SHOUT_DLL_BUILD;_WINSOCK_DEPRECATED_NO_WARNINGS;HAVE_SYS_TIMEB_H;HAVE_FTIME;_TIMESPEC_DEFINED;VERSION="2.3.1";LIBSHOUT_MAJOR=2;LIBSHOUT_MINOR=3;LIBSHOUT_MICRO=1;HAVE_WINSOCK2_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;WIN32;NDEBUG;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <BrowseInformation>true</BrowseInformation>
       <BrowseInformationFile>$(IntDir)bsc\</BrowseInformationFile>
     </ClCompile>
@@ -528,7 +528,7 @@ ENDLOCAL
       <ProfileGuidedDatabase>$(IntDir)$(TargetName).pgd</ProfileGuidedDatabase>
       <ProgramDatabaseFile>$(OutDir)..\..\lib\$(PlatformTarget)\$(TargetName).pdb</ProgramDatabaseFile>
       <AdditionalLibraryDirectories>$(OutDir)..\..\lib\$(PlatformTarget)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>ogg.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>ogg.lib;vorbis.lib;pthreadsVC2.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <LargeAddressAware>true</LargeAddressAware>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
@@ -575,9 +575,9 @@ ENDLOCAL
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
-      <AdditionalIncludeDirectories>$(ProjectDir)..\include;$(ProjectDir)..\..\include;$(OutDir)..\..\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir);$(ProjectDir)..\..\src;$(OutDir)..\..\include\pthreads;$(ProjectDir)..\include;$(ProjectDir)..\..\include;$(OutDir)..\..\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <ProgramDataBaseFileName>$(IntDir)$(TargetName).pdb</ProgramDataBaseFileName>
-      <PreprocessorDefinitions>NDEBUG;_WINDOWS;_USRDLL;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>SHOUT_DLL_BUILD;_WINSOCK_DEPRECATED_NO_WARNINGS;HAVE_SYS_TIMEB_H;HAVE_FTIME;_TIMESPEC_DEFINED;VERSION="2.3.1";LIBSHOUT_MAJOR=2;LIBSHOUT_MINOR=3;LIBSHOUT_MICRO=1;HAVE_WINSOCK2_H;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;NDEBUG;_WINDOWS;_USRDLL;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <BrowseInformation>true</BrowseInformation>
       <BrowseInformationFile>$(IntDir)bsc\</BrowseInformationFile>
     </ClCompile>
@@ -589,7 +589,7 @@ ENDLOCAL
       <ProfileGuidedDatabase>$(IntDir)$(TargetName).pgd</ProfileGuidedDatabase>
       <ProgramDatabaseFile>$(OutDir)..\..\lib\$(PlatformTarget)\$(TargetName).pdb</ProgramDatabaseFile>
       <AdditionalLibraryDirectories>$(OutDir)..\..\lib\$(PlatformTarget)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>ogg.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>ogg.lib;vorbis.lib;pthreadsVC2.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
@@ -633,11 +633,14 @@ ENDLOCAL
     <ClCompile Include="..\..\src\mp3.c" />
     <ClCompile Include="..\..\src\ogg.c" />
     <ClCompile Include="..\..\src\net\resolver.c" />
+    <ClCompile Include="..\..\src\opus.c" />
     <ClCompile Include="..\..\src\shout.c" />
     <ClCompile Include="..\..\src\net\sock.c" />
     <ClCompile Include="..\..\src\thread\thread.c" />
     <ClCompile Include="..\..\src\timing\timing.c" />
     <ClCompile Include="..\..\src\util.c" />
+    <ClCompile Include="..\..\src\vorbis.c" />
+    <ClCompile Include="..\..\src\webm.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\src\avl\avl.h" />
@@ -649,7 +652,6 @@ ENDLOCAL
     <ClInclude Include="..\..\src\thread\thread.h" />
     <ClInclude Include="..\..\src\timing\timing.h" />
     <ClInclude Include="..\..\src\util.h" />
-    <ClInclude Include="..\..\include\os.h" />
     <ClInclude Include="..\..\include\shout\shout.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
