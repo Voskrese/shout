@@ -31,7 +31,9 @@
 #ifdef HAVE_UNISTD_H
 #include <unistd.h>
 #elif _WIN32
-#include <compat.h>
+#include <stdint.h>
+#include <BaseTsd.h>
+typedef SSIZE_T ssize_t;
 #endif
 
 #ifdef HAVE_SYS_UIO_H

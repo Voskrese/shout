@@ -13,8 +13,10 @@
 #include <sys/types.h>
 
 #ifdef _WIN32
-#include <windows.h>
-#include <mmsystem.h>
+//#include <windows.h>
+//#include <mmsystem.h>
+#  include <time.h>
+#include <winsock2.h>
 #else
 #ifdef TIME_WITH_SYS_TIME
 #  include <sys/time.h>

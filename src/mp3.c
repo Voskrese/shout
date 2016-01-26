@@ -24,6 +24,7 @@
 #include <string.h>
 
 #include <shout/shout.h>
+#include <sys/types.h>
 #include "shout_private.h"
 
 /*

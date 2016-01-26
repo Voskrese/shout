@@ -47,14 +47,19 @@
 #include <netdb.h>
 #else
 #include <winsock2.h>
+#include <WS2tcpip.h>
 #define vsnprintf _vsnprintf
+#if defined(_MSC_VER) && _MSC_VER < 1900
 #define EINPROGRESS WSAEINPROGRESS
 #define ENOTSOCK WSAENOTSOCK
 #define EWOULDBLOCK WSAEWOULDBLOCK
 #define EALREADY WSAEALREADY
 #define socklen_t    int
+#endif
 #ifndef __MINGW32__
+#if defined(_MSC_VER) && _MSC_VER < 1900
 #define va_copy(ap1, ap2) memcpy(&ap1, &ap2, sizeof(va_list))
+#endif
 #endif
 #endif
 
