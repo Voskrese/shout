@@ -125,57 +125,57 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <TargetName>lib$(ProjectName)d</TargetName>
-    <OutDir Condition="'$(ConfigurationType)'=='StaticLibrary'">$(ProjectDir)..\..\..\..\build\msvc\lib\$(PlatformTarget)\</OutDir>
-    <OutDir Condition="'$(ConfigurationType)'=='DynamicLibrary'">$(ProjectDir)..\..\..\..\build\msvc\bin\$(PlatformTarget)\</OutDir>
+    <OutDir Condition="'$(ConfigurationType)'=='StaticLibrary'">$(ProjectDir)..\..\msvc\lib\$(PlatformTarget)\</OutDir>
+    <OutDir Condition="'$(ConfigurationType)'=='DynamicLibrary'">$(ProjectDir)..\..\msvc\bin\$(PlatformTarget)\</OutDir>
     <IntDir>$(OutDir)..\..\obj\$(PlatformTarget)\$(Configuration)\$(ConfigurationType)\$(ProjectName)\</IntDir>
     <LinkIncremental>true</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <TargetName>lib$(ProjectName)d</TargetName>
-    <OutDir Condition="'$(ConfigurationType)'=='StaticLibrary'">$(ProjectDir)..\..\..\..\build\msvc\lib\$(PlatformTarget)\</OutDir>
-    <OutDir Condition="'$(ConfigurationType)'=='DynamicLibrary'">$(ProjectDir)..\..\..\..\build\msvc\bin\$(PlatformTarget)\</OutDir>
+    <OutDir Condition="'$(ConfigurationType)'=='StaticLibrary'">$(ProjectDir)..\..\msvc\lib\$(PlatformTarget)\</OutDir>
+    <OutDir Condition="'$(ConfigurationType)'=='DynamicLibrary'">$(ProjectDir)..\..\msvc\bin\$(PlatformTarget)\</OutDir>
     <IntDir>$(OutDir)..\..\obj\$(PlatformTarget)\$(Configuration)\$(ConfigurationType)\$(ProjectName)\</IntDir>
     <LinkIncremental>true</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <TargetName>lib$(ProjectName)</TargetName>
-    <OutDir Condition="'$(ConfigurationType)'=='StaticLibrary'">$(ProjectDir)..\..\..\..\build\msvc\lib\$(PlatformTarget)\</OutDir>
-    <OutDir Condition="'$(ConfigurationType)'=='DynamicLibrary'">$(ProjectDir)..\..\..\..\build\msvc\bin\$(PlatformTarget)\</OutDir>
+    <OutDir Condition="'$(ConfigurationType)'=='StaticLibrary'">$(ProjectDir)..\..\msvc\lib\$(PlatformTarget)\</OutDir>
+    <OutDir Condition="'$(ConfigurationType)'=='DynamicLibrary'">$(ProjectDir)..\..\msvc\bin\$(PlatformTarget)\</OutDir>
     <IntDir>$(OutDir)..\..\obj\$(PlatformTarget)\$(Configuration)\$(ConfigurationType)\$(ProjectName)\</IntDir>
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <TargetName>lib$(ProjectName)</TargetName>
-    <OutDir Condition="'$(ConfigurationType)'=='StaticLibrary'">$(ProjectDir)..\..\..\..\build\msvc\lib\$(PlatformTarget)\</OutDir>
-    <OutDir Condition="'$(ConfigurationType)'=='DynamicLibrary'">$(ProjectDir)..\..\..\..\build\msvc\bin\$(PlatformTarget)\</OutDir>
+    <OutDir Condition="'$(ConfigurationType)'=='StaticLibrary'">$(ProjectDir)..\..\msvc\lib\$(PlatformTarget)\</OutDir>
+    <OutDir Condition="'$(ConfigurationType)'=='DynamicLibrary'">$(ProjectDir)..\..\msvc\bin\$(PlatformTarget)\</OutDir>
     <IntDir>$(OutDir)..\..\obj\$(PlatformTarget)\$(Configuration)\$(ConfigurationType)\$(ProjectName)\</IntDir>
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugDLL|Win32'">
     <TargetName>$(ProjectName)d</TargetName>
-    <OutDir Condition="'$(ConfigurationType)'=='StaticLibrary'">$(ProjectDir)..\..\..\..\build\msvc\lib\$(PlatformTarget)\</OutDir>
-    <OutDir Condition="'$(ConfigurationType)'=='DynamicLibrary'">$(ProjectDir)..\..\..\..\build\msvc\bin\$(PlatformTarget)\</OutDir>
+    <OutDir Condition="'$(ConfigurationType)'=='StaticLibrary'">$(ProjectDir)..\..\msvc\lib\$(PlatformTarget)\</OutDir>
+    <OutDir Condition="'$(ConfigurationType)'=='DynamicLibrary'">$(ProjectDir)..\..\msvc\bin\$(PlatformTarget)\</OutDir>
     <IntDir>$(OutDir)..\..\obj\$(PlatformTarget)\$(Configuration)\$(ConfigurationType)\$(ProjectName)\</IntDir>
     <LinkIncremental>true</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugDLL|x64'">
     <TargetName>$(ProjectName)d</TargetName>
-    <OutDir Condition="'$(ConfigurationType)'=='StaticLibrary'">$(ProjectDir)..\..\..\..\build\msvc\lib\$(PlatformTarget)\</OutDir>
-    <OutDir Condition="'$(ConfigurationType)'=='DynamicLibrary'">$(ProjectDir)..\..\..\..\build\msvc\bin\$(PlatformTarget)\</OutDir>
+    <OutDir Condition="'$(ConfigurationType)'=='StaticLibrary'">$(ProjectDir)..\..\msvc\lib\$(PlatformTarget)\</OutDir>
+    <OutDir Condition="'$(ConfigurationType)'=='DynamicLibrary'">$(ProjectDir)..\..\msvc\bin\$(PlatformTarget)\</OutDir>
     <IntDir>$(OutDir)..\..\obj\$(PlatformTarget)\$(Configuration)\$(ConfigurationType)\$(ProjectName)\</IntDir>
     <LinkIncremental>true</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseDLL|Win32'">
     <TargetName>$(ProjectName)</TargetName>
-    <OutDir Condition="'$(ConfigurationType)'=='StaticLibrary'">$(ProjectDir)..\..\..\..\build\msvc\lib\$(PlatformTarget)\</OutDir>
-    <OutDir Condition="'$(ConfigurationType)'=='DynamicLibrary'">$(ProjectDir)..\..\..\..\build\msvc\bin\$(PlatformTarget)\</OutDir>
+    <OutDir Condition="'$(ConfigurationType)'=='StaticLibrary'">$(ProjectDir)..\..\msvc\lib\$(PlatformTarget)\</OutDir>
+    <OutDir Condition="'$(ConfigurationType)'=='DynamicLibrary'">$(ProjectDir)..\..\msvc\bin\$(PlatformTarget)\</OutDir>
     <IntDir>$(OutDir)..\..\obj\$(PlatformTarget)\$(Configuration)\$(ConfigurationType)\$(ProjectName)\</IntDir>
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ReleaseDLL|x64'">
     <TargetName>$(ProjectName)</TargetName>
-    <OutDir Condition="'$(ConfigurationType)'=='StaticLibrary'">$(ProjectDir)..\..\..\..\build\msvc\lib\$(PlatformTarget)\</OutDir>
-    <OutDir Condition="'$(ConfigurationType)'=='DynamicLibrary'">$(ProjectDir)..\..\..\..\build\msvc\bin\$(PlatformTarget)\</OutDir>
+    <OutDir Condition="'$(ConfigurationType)'=='StaticLibrary'">$(ProjectDir)..\..\msvc\lib\$(PlatformTarget)\</OutDir>
+    <OutDir Condition="'$(ConfigurationType)'=='DynamicLibrary'">$(ProjectDir)..\..\msvc\bin\$(PlatformTarget)\</OutDir>
     <IntDir>$(OutDir)..\..\obj\$(PlatformTarget)\$(Configuration)\$(ConfigurationType)\$(ProjectName)\</IntDir>
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
@@ -195,8 +195,8 @@
       <TargetMachine>MachineX86</TargetMachine>
       <SubSystem>Windows</SubSystem>
       <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
-      <AdditionalLibraryDirectories>$(OutDir)..\..\lib\$(PlatformTarget)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>liboggd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OutDir)..\..\lib\$(PlatformTarget)\;$(VcpkgRoot)lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>ogg.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Lib>
     <PreBuildEvent>
       <Command>
@@ -247,8 +247,8 @@ ENDLOCAL
     <Lib>
       <SubSystem>Windows</SubSystem>
       <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
-      <AdditionalLibraryDirectories>$(OutDir)..\..\lib\$(PlatformTarget)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>liboggd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OutDir)..\..\lib\$(PlatformTarget)\;$(VcpkgRoot)lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>ogg.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Lib>
     <PreBuildEvent>
       <Command>
@@ -302,8 +302,8 @@ ENDLOCAL
       <TargetMachine>MachineX86</TargetMachine>
       <SubSystem>Windows</SubSystem>
       <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
-      <AdditionalLibraryDirectories>$(OutDir)..\..\lib\$(PlatformTarget)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>libogg.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OutDir)..\..\lib\$(PlatformTarget)\;$(VcpkgRoot)lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>ogg.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Lib>
     <PreBuildEvent>
       <Command>
@@ -356,8 +356,8 @@ ENDLOCAL
     <Lib>
       <SubSystem>Windows</SubSystem>
       <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
-      <AdditionalLibraryDirectories>$(OutDir)..\..\lib\$(PlatformTarget)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>libogg.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OutDir)..\..\lib\$(PlatformTarget)\;$(VcpkgRoot)lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>ogg.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Lib>
     <PreBuildEvent>
       <Command>
@@ -412,7 +412,7 @@ ENDLOCAL
       <ImportLibrary>$(OutDir)..\..\lib\$(PlatformTarget)\$(TargetName).lib</ImportLibrary>
       <ProfileGuidedDatabase>$(IntDir)$(TargetName).pgd</ProfileGuidedDatabase>
       <ProgramDatabaseFile>$(OutDir)..\..\lib\$(PlatformTarget)\$(TargetName).pdb</ProgramDatabaseFile>
-      <AdditionalLibraryDirectories>$(OutDir)..\..\lib\$(PlatformTarget)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(OutDir)..\..\lib\$(PlatformTarget)\;$(VcpkgRoot)lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>oggd.lib;vorbisd.lib;pthreadsVC2d.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <LargeAddressAware>true</LargeAddressAware>
     </Link>
@@ -469,7 +469,7 @@ ENDLOCAL
       <ImportLibrary>$(OutDir)..\..\lib\$(PlatformTarget)\$(TargetName).lib</ImportLibrary>
       <ProfileGuidedDatabase>$(IntDir)$(TargetName).pgd</ProfileGuidedDatabase>
       <ProgramDatabaseFile>$(OutDir)..\..\lib\$(PlatformTarget)\$(TargetName).pdb</ProgramDatabaseFile>
-      <AdditionalLibraryDirectories>$(OutDir)..\..\lib\$(PlatformTarget)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(OutDir)..\..\lib\$(PlatformTarget)\;$(VcpkgRoot)lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>oggd.lib;vorbisd.lib;pthreadsVC2d.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PreBuildEvent>
@@ -527,7 +527,7 @@ ENDLOCAL
       <ImportLibrary>$(OutDir)..\..\lib\$(PlatformTarget)\$(TargetName).lib</ImportLibrary>
       <ProfileGuidedDatabase>$(IntDir)$(TargetName).pgd</ProfileGuidedDatabase>
       <ProgramDatabaseFile>$(OutDir)..\..\lib\$(PlatformTarget)\$(TargetName).pdb</ProgramDatabaseFile>
-      <AdditionalLibraryDirectories>$(OutDir)..\..\lib\$(PlatformTarget)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(OutDir)..\..\lib\$(PlatformTarget)\;$(VcpkgRoot)lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>ogg.lib;vorbis.lib;pthreadsVC2.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <LargeAddressAware>true</LargeAddressAware>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -588,7 +588,7 @@ ENDLOCAL
       <ImportLibrary>$(OutDir)..\..\lib\$(PlatformTarget)\$(TargetName).lib</ImportLibrary>
       <ProfileGuidedDatabase>$(IntDir)$(TargetName).pgd</ProfileGuidedDatabase>
       <ProgramDatabaseFile>$(OutDir)..\..\lib\$(PlatformTarget)\$(TargetName).pdb</ProgramDatabaseFile>
-      <AdditionalLibraryDirectories>$(OutDir)..\..\lib\$(PlatformTarget)\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(OutDir)..\..\lib\$(PlatformTarget)\;$(VcpkgRoot)lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>ogg.lib;vorbis.lib;pthreadsVC2.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
